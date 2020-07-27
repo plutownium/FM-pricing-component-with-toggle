@@ -16,11 +16,12 @@
             font-size: 11px;
             text-align: center;
         }
-
+        
         .attribution a {
             color: hsl(228, 45%, 44%);
         }
     </style> -->
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -32,7 +33,7 @@
         <div>
             Annually
             <label class="switch">
-                <input type="checkbox">
+                <input id="checkbox" type="checkbox">
                 <span class="slider round"></span>
             </label>
             Monthly
@@ -44,11 +45,17 @@
             Basic
         </div>
         <div>
-            &dollar;19.99
-            &dollar;199.99
-            500 GB Storage
-            2 Users Allowed
-            Send up to 3 GB
+            <div class="month-to-month">
+                &dollar;19.99
+            </div>
+            <div class="yearly">
+                &dollar;199.99
+            </div>
+            <div>
+                500 GB Storage
+                2 Users Allowed
+                Send up to 3 GB
+            </div>
         </div>
         <div>
             Learn More
@@ -60,11 +67,17 @@
             Professional
         </div>
         <div>
-            &dollar;24.99
-            &dollar;249.99
-            1 TB Storage
-            5 Users Allowed
-            Send up to 10 GB
+            <div class="month-to-month">
+                &dollar;24.99
+            </div>
+            <div class="yearly">
+                &dollar;249.99
+            </div>
+            <div>
+                1 TB Storage
+                5 Users Allowed
+                Send up to 10 GB
+            </div>
         </div>
         <div>
             Learn More
@@ -76,11 +89,17 @@
             Master
         </div>
         <div>
-            &dollar;39.99
-            &dollar;399.99
-            2 TB Storage
-            10 Users Allowed
-            Send up to 20 GB
+            <div class="month-to-month">
+                &dollar;39.99
+            </div>
+            <div class="yearly">
+                &dollar;399.99
+            </div>
+            <div>
+                2 TB Storage
+                10 Users Allowed
+                Send up to 20 GB
+            </div>
         </div>
         <div>
             Learn More
