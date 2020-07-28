@@ -1,7 +1,22 @@
+body {
+    background: url("./images/bg-top.svg") no-repeat;
+    background-position: 115px -50px;
+}
+
+#pricing-cards {
+    width: 90%;
+}
+
+#purple-card {
+    /* background-color: hsl(232, 13%, 33%) */
+    background: linear-gradient(135deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%))
+}
+
 .card {
     background-color: #DDDDDD;
     margin: 5px;
     padding: 5px;
+    height: 300px;
     text-align: center;
 }
 
@@ -11,6 +26,10 @@
 
 .hidden-property {
     visibility: hidden;
+}
+
+.learn-more-purple {
+    background: linear-gradient(135deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%))
 }
 
 

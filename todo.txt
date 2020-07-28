@@ -12,3 +12,11 @@
 4. fianlly desktop + mtm
 
 # Try to reuse classes!
+
+TODO:
+- learn how to position the .svg files in the background
+- make the pricing text the right size and font
+- make the features text the right size and font
+- make the pro/master/basic the right size and font
+- stack the cards vertically with appropriate margins
+- position the "our pricing" div on top transparently
