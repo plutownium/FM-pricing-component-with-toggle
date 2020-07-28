@@ -1,36 +1,22 @@
 const switchBox = document.getElementById("checkbox")
 
-const basicMtm = document.getElementById("basic-mtm-price")
-const basicYearly = document.getElementById("basic-yearly-price")
-const proMtm = document.getElementById("pro-mtm-price")
-const proYearly = document.getElementById("pro-yearly-price")
-const masterMtm = document.getElementById("master-mtm-price")
-const masterYearly = document.getElementById("master-yearly-price")
-
-console.log("hi")
-console.log(switchBox.checked)
-
+const basicPrice = document.getElementById("basic-price")
+const proPrice = document.getElementById("pro-price")
+const masterPrice = document.getElementById("master-price")
+// 19.99 -> 199.99
+// 24.99 -> 249.99
+// 39.99 -> 399.99
 switchBox.addEventListener("change", function () {
     console.log("this!", this)
     if (this.checked) {
         // switch to Full Year pricing
-        const monthToMonthDivs = document.getElementsByClassName("month-to-month")
-        for (const el of monthToMonthDivs) {
-            el.classList.add("hidden-property")
-        }
-        const yearlyDivs = document.getElementsByClassName("yearly")
-        for (const el of yearlyDivs) {
-            el.classList.remove("hidden-property")
-        }
+        basicPrice.innerHTML = 199.99
+        proPrice.innerHTML = 249.99
+        masterPrice.innerHTML = 399.99
     } else {
         // switch to Month-to-Month pricing
-        const monthToMonthDivs = document.getElementsByClassName("month-to-month")
-        for (const el of monthToMonthDivs) {
-            el.classList.remove("hidden-property")
-        }
-        const yearlyDivs = document.getElementsByClassName("yearly")
-        for (const el of yearlyDivs) {
-            el.classList.add("hidden-property")
-        }
+        basicPrice.innerHTML = 19.99
+        proPrice.innerHTML = 24.99
+        masterPrice.innerHTML = 39.99
     }
 })
