@@ -1,0 +1,14 @@
+# Plan
+
+1. make a set of classes describing the page when its set to annually
+2. do the same for month to month
+3. make the button toggle the layout
+
+# Order of operations
+
+1. Make the page look nice as mobile + yearly
+2. ...then mobile + month to month
+3. ...then desktop + yearly
+4. fianlly desktop + mtm
+
+# Try to reuse classes!

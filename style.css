@@ -1,3 +1,19 @@
+.card {
+  background-color: #DDDDDD;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.hidden-property {
+    visibility: hidden;
+}
+
+
+/* ### ### ### ### ### ### ### ### */
+/* Copied From StackOverflow */
+/* ### ### ### ### ### ### ### ### */
+
 /* The switch - the box around the slider */
 .switch {
   position: relative;
