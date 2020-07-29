@@ -14,6 +14,5 @@
 # Try to reuse classes!
 
 TODO:
-- make "learn more" txt the right font
-- style active states of all btns
--
+
+FIXME: pro btn active state is not properly transparent
