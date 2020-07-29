@@ -1,7 +1,7 @@
 body {
     background: url("./images/bg-top.svg") no-repeat;
     background-position: 115px -50px;
-    background-color: hsl(240, 78%, 98%)
+    background-color: hsl(240, 78%, 94%)
 }
 
 #pricing-cards {
@@ -18,12 +18,22 @@ body {
     border-radius: 10px;
     margin: 5px;
     padding: 5px;
-    height: 300px;
+    height: 330px;
     text-align: center;
 }
 
-.card div {
+/* .card div {
     border: 1px solid red;
+} */
+
+.container {
+    text-align: center;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
 }
 
 .feature {
@@ -33,8 +43,22 @@ body {
     width: 80%;
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    margin: auto 0;
+    font-size: 14px;
     display: inline-block;
+    border: 2px solid blue;
+}
+
+.feature div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.features {
+    margin: 20px;
 }
 
 .features div {
@@ -44,14 +68,11 @@ body {
     text-align: center;
 }
 
-
-
-.hidden-property {
-    visibility: hidden;
-}
-
-.learn-more-purple {
-    background: linear-gradient(135deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%))
+.learn-more {
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 .pricing span {
@@ -59,8 +80,16 @@ body {
     font-size: 60px;
 }
 
+.purple {
+    background: linear-gradient(135deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%))
+}
+
 .tier-name p {
     font-family: 'Montserrat', sans-serif;
+}
+
+.white {
+    background: #FFFFFF;
 }
 
 /* ### ### ### ### ### ### ### ### */
