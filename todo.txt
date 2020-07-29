@@ -13,6 +13,11 @@
 
 # Try to reuse classes!
 
-TODO:
+TODO: make the site reorganize properly on desktop
+- move the cards from top-bot to left-right.
+- make the "pro" card slightly larger
+- square the corners that touch another card
 
 FIXME: pro btn active state is not properly transparent
+
+FIXME: there is a 30 px right-only margin, WTF?

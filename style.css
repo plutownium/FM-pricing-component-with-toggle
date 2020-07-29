@@ -46,15 +46,12 @@ body {
 .card {
     background-color: #FFFFFF;
     border-radius: 10px;
+    max-width: 360px;
     margin: 5px;
     padding: 5px;
     height: 330px;
     text-align: center;
 }
-
-/* .card div {
-    border: 1px solid red;
-} */
 
 .container {
     text-align: center;
@@ -133,6 +130,10 @@ body {
     /* border: 2px solid hsl(237, 63%, 64%); */
     border: 1px solid hsl(237, 63%, 64%);
 }
+
+/* @media screen and (min-width: 376px) {
+
+} */
 
 /* ### ### ### ### ### ### ### ### */
 /* Copied From StackOverflow */
