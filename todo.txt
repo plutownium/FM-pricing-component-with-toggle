@@ -20,4 +20,3 @@ TODO: make the site reorganize properly on desktop
 
 FIXME: pro btn active state is not properly transparent
 
-FIXME: there is a 30 px right-only margin, WTF?

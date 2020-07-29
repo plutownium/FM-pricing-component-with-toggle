@@ -1,7 +1,15 @@
 body {
     background: url("./images/bg-top.svg") no-repeat;
     background-position: 115px -50px;
-    background-color: hsl(240, 78%, 94%)
+    background-color: hsl(240, 78%, 94%);
+    text-align: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #checkbox-container {
