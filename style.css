@@ -59,6 +59,10 @@ body {
     background: linear-gradient(135deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%))
 }
 
+.attribution {
+    margin: 10px;
+}
+
 .card {
     background-color: #FFFFFF;
     border-radius: 10px;
